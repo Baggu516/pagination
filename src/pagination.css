@@ -1,0 +1,34 @@
+button :active{
+   color: white;
+   background-color: skyblue;
+}
+.paginateButtons{
+    list-style: none;
+    /* width: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.paginateButtons a{
+    border: 1px solid #2b2eff;
+    border-radius: 5px;
+    padding: 5px;
+    color:#2b2eff ;
+    cursor: pointer;
+}
+.paginateButtons a:hover{
+    color: white;
+    /* color:#2b2eff ; */
+    background-color: #2b2eff;
+}
+.paginateButtons a:active{
+    color: white;
+    /* color:#2b2eff ; */
+    background-color: #2b2eff;
+}
+.paginationActive a{
+    color: white;
+    /* color:#2b2eff ; */
+    background-color: #2b2eff;
+}
